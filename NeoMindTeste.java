@@ -39,11 +39,8 @@ import java.util.Scanner;
 
 *
 * No e-mail é pedido para usar o seguinte método. public long retornaAnguloRelogio(GregorianCalendar horario);
-* Todavia pesquisando sobre a classe GregorianCalendar eu não consegui encontrar um método que poderia 
-* converter o objeto para string, float ou int. A página que pesquisei é esta.
-* https://docs.oracle.com/javase/7/docs/api/java/util/GregorianCalendar.html#method_summary
-* Seguindo na busca encontrei uma possível solução a classe LocalTime, esta eu poderia converter os valores de hora e mituto
-* para outros tipos de variáveis.
+* Todavia pesquisando sobre a classe GregorianCalendar eu percebi que ela era do java 7 e que atualmente estavam utilizando outras classes.
+* Seriam elas, LocalDate, LocalTime, LocalDateTime;
 * https://www.tutorialspoint.com/java8/java8_datetime_api.htm
 * No decorrer do desenvolvimento eu mudei o tipo de retorno da função public long retornaAnguloRelogio(GregorianCalendar horario);
 * para public double retornaAnguloRelogio(int valor), fiz essa mudança pois ocorreu algumas variações de arredondamento do sistema.
